@@ -1,7 +1,8 @@
 # NIL_EL
 
-This repository maintains code, data and for ACL 2023 paper 
-[[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking]()]
+This repository maintains code, data and for ACL Findings 2023 paper 
+
+[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking]()
 
 ## Get Started
 
