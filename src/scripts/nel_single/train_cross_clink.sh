@@ -1,6 +1,6 @@
-CUDA_VISIBLE_DEVICES=2 python cross/train.py \
-    --data_path /data/zfw/NEL/data/vector_single \
-    --output_path /data/zfw/NEL/models/cross_clink_single \
+CUDA_VISIBLE_DEVICES=0 python cross/train.py \
+    --data_path ../data/vector_single \
+    --output_path ../models/cross_clink_single \
     --learning_rate 1e-05 \
     --cate_num 212 \
     --num_train_epochs 1 \

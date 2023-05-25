@@ -1,7 +1,7 @@
-CUDA_VISIBLE_DEVICES=7 python cross/train.py \
-    --data_path /data/zfw/NEL/data/vector \
-    --output_path /data/zfw/NEL/models/cross_blink_s2 \
-    --path_to_model /data/zfw/NEL/models/cross_blink/clink_model.ckpt \
+CUDA_VISIBLE_DEVICES=0 python cross/train.py \
+    --data_path ../data/vector \
+    --output_path ../models/cross_blink_s2 \
+    --path_to_model ../models/cross_blink/clink_model.ckpt \
     --learning_rate 1e-05 \
     --cate_num 187 \
     --num_train_epochs 4 \

@@ -1,6 +1,6 @@
-CUDA_VISIBLE_DEVICES=6 python clink/train.py \
-    --data_path /data/zfw/NEL/data/vector_nonil \
-    --output_path /data/zfw/NEL/models/clink_nonil \
+CUDA_VISIBLE_DEVICES=0 python clink/train.py \
+    --data_path ../data/vector_nonil \
+    --output_path ../models/clink_nonil \
     --learning_rate 1e-05 \
     --cate_num 187 \
     --num_train_epochs 4 \

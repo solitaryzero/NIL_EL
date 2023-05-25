@@ -1,6 +1,6 @@
-CUDA_VISIBLE_DEVICES=7 python evaluation/train_bi.py \
-    --data_path /data/zfw/NEL/data/processed_benchmark \
-    --output_path /data/zfw/NEL/models/blink_standard_nil \
+CUDA_VISIBLE_DEVICES=0 python evaluation/train_bi.py \
+    --data_path ../data/processed_benchmark \
+    --output_path ../models/blink_standard_nil \
     --learning_rate 1e-05 \
     --cate_num 14 \
     --num_train_epochs 1 \

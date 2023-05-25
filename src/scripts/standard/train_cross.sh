@@ -1,6 +1,6 @@
-CUDA_VISIBLE_DEVICES=5 python evaluation/train_cross.py \
-    --data_path /data/zfw/NEL/data/processed_benchmark \
-    --output_path /data/zfw/NEL/models/cross_standard_mask \
+CUDA_VISIBLE_DEVICES=0 python evaluation/train_cross.py \
+    --data_path ../data/processed_benchmark \
+    --output_path ../models/cross_standard_mask \
     --learning_rate 1e-05 \
     --cate_num 14 \
     --num_train_epochs 1 \

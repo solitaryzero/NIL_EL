@@ -1,6 +1,6 @@
-CUDA_VISIBLE_DEVICES=4 python cross/train.py \
-    --data_path /data/zfw/NEL/data/partial_nep_vectors/vector_$1p \
-    --output_path /data/zfw/NEL/models/partial_nep/cross_clink_$1p \
+CUDA_VISIBLE_DEVICES=0 python cross/train.py \
+    --data_path ../data/partial_nep_vectors/vector_$1p \
+    --output_path ../models/partial_nep/cross_clink_$1p \
     --learning_rate 1e-05 \
     --cate_num 187 \
     --num_train_epochs 4 \
