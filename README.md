@@ -1,7 +1,7 @@
 # NIL_EL
 
 This repository maintains code, data and for ACL 2023 paper 
-[[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking](https://arxiv.org/pdf/2106.15135.pdf)]
+[[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking]()]
 
 ## Get Started
 
