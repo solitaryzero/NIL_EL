@@ -2,7 +2,7 @@
 
 This repository maintains code, data and for ACL Findings 2023 paper 
 
-[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking]()
+[Learn to Not Link: Exploring \nil{} Prediction in Entity Linking](https://arxiv.org/abs/2305.15725)
 
 ## Get Started
 
